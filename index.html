@@ -50,7 +50,7 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume.pdf')"
+            onclick="window.open('./assets/resume.pdf', '_blank')"
           >
             Download CV
           </button>
@@ -61,15 +61,15 @@
         <div id="socials-container">
           <img
             src="./assets/linkedin.png"
-            alt="My linkedin Profile"
+            alt="My LinkedIn Profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/abhishek-kumar-ray-63a3b4291/'"
+            onclick="window.open('https://www.linkedin.com/in/abhishek-kumar-ray-63a3b4291/', '_blank')"
           />
           <img
             src="./assets/github.png"
             alt="My github Profile"
             class="icon"
-            onclick="location.href='https://github.com/abhishek83568'"
+            onclick="window.open('https://github.com/abhishek83568', '_blank')"
           />
         </div>
       </div>
@@ -306,13 +306,13 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/abhishek83568/NORDSTORM_RACK_PROJECT'"
+                onclick="window.open('https://github.com/abhishek83568/NORDSTORM_RACK_PROJECT','_blank')"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://statuesque-druid-429337.netlify.app/'"
+                onclick="window.open('https://statuesque-druid-429337.netlify.app/','_blank')"
               >
                 Live Demo
               </button>
@@ -330,13 +330,13 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/abhishek83568/Superhero_Project'"
+                onclick="window.open('https://github.com/abhishek83568/Superhero_Project','_blank')"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://peppy-speculoos-e40bf8.netlify.app/'"
+                onclick="window.open('https://peppy-speculoos-e40bf8.netlify.app/','_blank')"
               >
                 Live Demo
               </button>
@@ -356,13 +356,13 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/abhishek83568/skinStore'"
+                onclick="window.open('https://github.com/abhishek83568/skinStore','_blank')"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://master--coruscating-marshmallow-b42b8b.netlify.app/'"
+                onclick="window.open('https://master--coruscating-marshmallow-b42b8b.netlify.app/','_blank')"
               >
                 Live Demo
               </button>
@@ -379,7 +379,6 @@
     </section>
     <section id="githubStats">
       <h1 class="title">Github Stats</h1>
-
       <div class="github-containers">
         <div class="details-container">
           <img
@@ -415,7 +414,12 @@
             class="icon contact-icon email-icon"
           />
           <p>
-            <a href="mailto:abhishek83568@gmail.com">abhishek83568@gmail.com</a>
+            <a
+              href="mailto:abhishek83568@gmail.com?subject=Hello&body=I would like to connect with you."
+              ,target="_blank"
+            >
+              abhishek83568@gmail.com
+            </a>
           </p>
         </div>
         <div class="contact-info-container">
@@ -425,7 +429,9 @@
             class="icon contact-icon"
           />
           <p>
-            <a href="https://www.linkedin.com/in/abhishek-kumar-ray-63a3b4291/"
+            <a
+              href="https://www.linkedin.com/in/abhishek-kumar-ray-63a3b4291/"
+              target="_blank"
               >linkedin</a
             >
           </p>
@@ -445,7 +451,9 @@
       </nav>
       <p>
         Copyright &#169; 2024. Built By
-        <a href="https://github.com/abhishek83568">Abhishek Kumar Ray</a>.
+        <a href="https://github.com/abhishek83568" target="_blank"
+          >Abhishek Kumar Ray</a
+        >.
       </p>
     </footer>
     <script src="script.js"></script>
