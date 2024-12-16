@@ -30,6 +30,7 @@ a,
 nav,
 .nav-links {
   display: flex;
+  background: rgb(249, 192, 192);
 }
 
 nav {
