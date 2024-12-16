@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    height: 50vh;
     margin-bottom: 6rem;
   }
 
@@ -62,8 +62,8 @@
   }
 
   #profile {
-    height: 83vh;
-    margin-bottom: 0;
+    height: 30vh;
+    margin-bottom: 10px;
   }
 
   article {
